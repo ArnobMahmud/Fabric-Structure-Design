@@ -31,16 +31,10 @@ export const WeavePalette = styled.div`
   }
 
   img {
-    z-index: 100;
-    transition: all 0.3s ease-out;
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 1px #776870, -5px -5px 5px 1px #776870;
     height: auto;
     max-width: 100%;
-  }
-
-  img:hover {
-    transform: scale(1.3);
   }
 
   .card .card-link-wrapper {
@@ -62,7 +56,7 @@ export const WeavePalette = styled.div`
 
   @media (max-width: 991px) {
     .cards {
-      display:contents;
+      display: contents;
     }
     .card {
       margin: 5px;
