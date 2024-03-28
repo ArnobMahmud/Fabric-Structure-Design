@@ -6,21 +6,21 @@ const TwillWeave = () => {
   return (
     <>
       <WeavePalette>
-        <div className="container">
+        <div className="card">
+          <h1>Twill Weave</h1>
           <div className="card">
-            <h1>Twill Weave</h1>
-            <div className="card desc row">
+            <ul class=" cards">
               {data.twill.map((e, i) => {
                 return (
                   <>
-                    <div className="col-xl-12 infocard">
+                    <li className="card">
                       <img src={`${e.image}`} alt="imgData" key={i} />
                       <h5>{e.weave}</h5>
-                    </div>
+                    </li>
                   </>
                 );
               })}
-            </div>
+            </ul>
           </div>
         </div>
       </WeavePalette>

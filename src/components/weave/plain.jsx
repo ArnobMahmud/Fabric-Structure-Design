@@ -1,26 +1,26 @@
 import React from "react";
 import data from "../../json/weave_data.json";
-import  {WeavePalette}  from "../config/palette.jsx";
+import { WeavePalette } from "../config/palette.jsx";
 
 const PlainWeave = () => {
   return (
     <>
       <WeavePalette>
-        <div className="container">
+        <div className="card">
+          <h1>Plain Weave</h1>
           <div className="card">
-            <h1>Plain Weave</h1>
-            <div className="card desc row">
+            <ul class=" cards">
               {data.plain.map((e, i) => {
                 return (
                   <>
-                    <div className="col-xl-12 infocard">
+                    <li className="card">
                       <img src={`${e.image}`} alt="imgData" key={i} />
                       <h5>{e.weave}</h5>
-                    </div>
+                    </li>
                   </>
                 );
               })}
-            </div>
+            </ul>
           </div>
         </div>
       </WeavePalette>

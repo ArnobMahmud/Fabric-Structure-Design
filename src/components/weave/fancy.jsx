@@ -6,23 +6,21 @@ const FancyWeave = () => {
   return (
     <>
       <WeavePalette>
-        <div className="container">
+        <div className="card">
+          <h1>Fancy Weave</h1>
           <div className="card">
-            <h1>Fancy Weave</h1>
-            <div className="card desc row">
-            {data.fancy.map((e, i) => {
+            <ul class=" cards">
+              {data.fancy.map((e, i) => {
                 return (
                   <>
-                    <div className="infocard row">
-                      <div className="col-xl-12 col-md-12 col-sm-12">
-                        <img src={`${e.image}`} alt="imgData" key={i} />
-                      </div>
+                    <li className="card">
+                      <img src={`${e.image}`} alt="imgData" key={i} />
                       <h5>{e.weave}</h5>
-                    </div>
+                    </li>
                   </>
                 );
               })}
-            </div>
+            </ul>
           </div>
         </div>
       </WeavePalette>

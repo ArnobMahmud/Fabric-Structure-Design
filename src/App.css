@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500");
 
 * {
   margin: 0;
@@ -19,7 +14,7 @@
 
 body {
   background-color: #918383;
-  font-family: "Rubik";
+  font-family: "Poppins";
   overflow-x: hidden;
 }
 
@@ -55,70 +50,7 @@ p {
   color: rgb(33, 11, 11);
 }
 
-.card {
-  width: auto;
-  margin: 30px 10px;
-  padding: 20px;
-  border-radius: 10px;
-  background: #918383;
-  box-shadow: 7px 11px 10px 1px #7b6f6f, 6px -1px 11px 3px #7b6f6f;
-}
-
-.infocard {
-  justify-content: space-around;
-  padding: 20px;
-  margin: 20px 10px;
-  border-radius: 20px;
-  border-radius: 10px;
-  background: #93808a;
-  box-shadow: 7px 11px 10px 1px #776870, 6px -1px 11px 3px #776870;
-}
-
-.desc {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-.desc::-webkit-scrollbar {
-  height: 12px;
-}
-
-.desc::-webkit-scrollbar-thumb,
-.desc::-webkit-scrollbar-track {
-  border-radius: 92px;
-}
-
-.desc::-webkit-scrollbar-thumb {
-  background: var(--darkred);
-}
-
-.desc::-webkit-scrollbar-track {
-  background: var(--thumb);
-}
-
 .footer {
   margin: 10px 0px;
   text-align: center;
-}
-
-@media (max-width: 767px) {
-  .card {
-    margin: 10px 0px;
-    padding: 10px;
-    border-radius: 10px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: auto;
-    width: auto;
-  }
-  .infocard {
-    overflow-x: hidden;
-    border-radius: 10px;
-    height: auto;
-    margin: 10px 0px;
-  }
-  .desc {
-    overflow-x: hidden;
-    scroll-snap-type: none;
-  }
 }
