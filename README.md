@@ -1,6 +1,10 @@
-# Fabric Structure & Design 
+# Fabric Structure & Design
 
 Woven fabrics are composed of longitudinal or warp thread and transverse or weft threads interlaced with one another according to the class of structure and form of design that are desired. Structure is defined as the order of interlacement of Warp and Weft. Design is defined as a plan which gives the appearance of the structure.
+
+
+<img src= "https://github.com/ArnobMahmud/Fabric-Structure-Design/assets/60808266/9b142f35-cd93-45b0-9dc6-e6cea6f04dfb">
+
 
 [![wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98.svg?style="plastic")](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98)
 
@@ -33,7 +37,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 ## Available Scripts
 
