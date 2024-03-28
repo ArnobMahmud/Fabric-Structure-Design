@@ -1,0 +1,114 @@
+{
+  "plain": [
+    {
+      "weave": "Basic Plain",
+      "image": "../images/plain/plain.png"
+    },
+    {
+      "weave": "Oxford",
+      "image": "../images/plain/oxford.png"
+    },
+    {
+      "weave": "Ottoman",
+      "image": "../images/plain/ottoman.png"
+    },
+    {
+      "weave": "Regular Matt",
+      "image": "../images/plain/regular_matt.png"
+    },
+    {
+      "weave": "Irregular Matt",
+      "image": "../images/plain/irregular_matt.png"
+    },
+    {
+      "weave": "Stitched Matt",
+      "image": "../images/plain/stitched_matt.png"
+    },
+    {
+      "weave": "Fancy Matt",
+      "image": "../images/plain/fancy_matt.png"
+    }
+  ],
+  "satin": [
+    {
+      "weave": "Regular Warp Satin",
+      "image": "../images/satin/regular_warp_satin.png"
+    },
+    {
+      "weave": "Irregular Warp Satin",
+      "image": "../images/satin/irregular_warp_satin.png"
+    },
+    {
+      "weave": "Regular Weft Sateen",
+      "image": "../images/satin/regular_weft_sateen.png"
+    },
+    {
+      "weave": "Irregular Weft Sateen",
+      "image": "../images/satin/irregular_weft_sateen.png"
+    }
+  ],
+  "twill": [
+    {
+      "weave": "Warp Way",
+      "image": "../images/twill/warp_twill.png"
+    },
+    {
+      "weave": "Weft Way",
+      "image": "../images/twill/weft_twill.png"
+    },
+    {
+      "weave": "Simple Warp",
+      "image": "../images/twill/simple_warp.png"
+    },
+    {
+      "weave": "Simple Weft",
+      "image": "../images/twill/simple_weft.png"
+    },
+    {
+      "weave": "Double Faced",
+      "image": "../images/twill/double_faced.png"
+    },
+    {
+      "weave": "Diaper",
+      "image": "../images/twill/diaper.png"
+    },
+    {
+      "weave": "Broken Twill",
+      "image": "../images/twill/broken_twill.png"
+    },
+    {
+      "weave": "Mocksatin",
+      "image": "../images/twill/mocksatin.png"
+    }
+  ],
+  "fancy": [
+    {
+      "weave": "Huckaback",
+      "image": "../images/fancy/huckaback.png"
+    },
+    {
+      "weave": "Mockleno",
+      "image": "../images/fancy/mockleno.png"
+    },
+    {
+      "weave": "Ordinary Honeycomb",
+      "image": "../images/fancy/ordinary_honeycomb.png"
+    },
+    {
+      "weave": "Brighton Honeycomb",
+      "image": "../images/fancy/brighton_honeycomb.png"
+    },
+    {
+      "weave": "Warp Distorted",
+      "image": "../images/fancy/warp_distorted.png"
+    },
+    {
+      "weave": "Weft Distorted",
+      "image": "../images/fancy/weft_distorted.png"
+    },
+    {
+      "weave": "Cord",
+      "image": "../images/fancy/cord.png"
+    }
+  ]
+}
