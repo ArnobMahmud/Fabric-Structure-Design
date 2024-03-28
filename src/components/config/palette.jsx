@@ -14,7 +14,6 @@ export const WeavePalette = styled.div`
     height: -webkit-fill-available;
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 1px #776870, -5px -5px 5px 1px #776870;
-    border-radius: 10px;
   }
   @media (max-width: 991px) {
     .card {
@@ -23,6 +22,10 @@ export const WeavePalette = styled.div`
     }
     .infocard {
       height: auto;
+    }
+    img {
+      width: inherit !important;
+      height: inherit !important;
     }
   }
 `;
