@@ -35,6 +35,8 @@ export const WeavePalette = styled.div`
     transition: all 0.5s ease-out;
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 1px #776870, -5px -5px 5px 1px #776870;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
   }
 
   img:hover {
@@ -65,6 +67,10 @@ export const WeavePalette = styled.div`
     .card {
       margin: 5px;
       padding: 15px;
+    }
+    img {
+      height: -webkit-fill-available !important;
+      width: -webkit-fill-available !important;
     }
   }
 `;
