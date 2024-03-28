@@ -31,7 +31,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar {
   width: 12px;
-  background-color: #e0e0e0;
+  background-color: #7c7575;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -47,7 +47,8 @@ h4,
 h5,
 h6,
 a {
-  color: #330a17;
+  color: #330a17 !important;
+  text-decoration: none;
 }
 
 p {
@@ -58,7 +59,7 @@ p {
   width: auto;
   margin: 30px 10px;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #918383;
   box-shadow: 7px 11px 10px 1px #7b6f6f, 6px -1px 11px 3px #7b6f6f;
 }
@@ -102,7 +103,7 @@ p {
 
 @media (max-width: 767px) {
   .card {
-    margin: 15px 0px;
+    margin: 10px 0px;
     padding: 10px;
     border-radius: 10px;
     overflow-x: hidden;
