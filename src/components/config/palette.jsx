@@ -32,15 +32,15 @@ export const WeavePalette = styled.div`
 
   img {
     z-index: 100;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 1px #776870, -5px -5px 5px 1px #776870;
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
+    height: auto;
+    width: auto;
   }
 
   img:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 
   .card .card-link-wrapper {
@@ -62,15 +62,15 @@ export const WeavePalette = styled.div`
 
   @media (max-width: 991px) {
     .cards {
-      display: contents;
+      display:contents;
     }
     .card {
       margin: 5px;
       padding: 15px;
     }
     img {
-      height: -webkit-fill-available !important;
-      width: -webkit-fill-available !important;
+      height: inherit !important;
+      width: inherit !important;
     }
   }
 `;
