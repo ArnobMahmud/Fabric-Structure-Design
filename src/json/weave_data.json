@@ -69,6 +69,26 @@
       "image": "../images/twill/double_faced.png"
     },
     {
+      "weave": "Horizontal Zigzag",
+      "image": "../images/twill/horizontal_zigzag.png"
+    },
+    {
+      "weave": "Vertical Zigzag",
+      "image": "../images/twill/vertical_zigzag.png"
+    },
+    {
+      "weave": "Diamond",
+      "image": "../images/twill/diamond.png"
+    },
+    {
+      "weave": "Horizontal Herringbone",
+      "image": "../images/twill/horizontal_herringbone.png"
+    },
+    {
+      "weave": "Vertical Herringbone",
+      "image": "../images/twill/vertical_herringbone.png"
+    },
+    {
       "weave": "Diaper",
       "image": "../images/twill/diaper.png"
     },
