@@ -36,7 +36,7 @@ export const WeavePalette = styled.div`
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px 1px #776870, -5px -5px 5px 1px #776870;
     height: auto;
-    width: auto;
+    max-width: 100%;
   }
 
   img:hover {
@@ -69,8 +69,8 @@ export const WeavePalette = styled.div`
       padding: 15px;
     }
     img {
-      height: inherit !important;
-      width: inherit !important;
+      max-width: 100%;
+      height: auto;
     }
   }
 `;
