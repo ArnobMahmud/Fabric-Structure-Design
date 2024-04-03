@@ -1,0 +1,331 @@
+{
+  "plain": [
+    {
+      "id": "p1",
+      "weave": "Basic Plain",
+      "weave_plan": "1/1",
+      "repeat_size": "2 x 2",
+      "image": "../images/plain/plain.png"
+    },
+    {
+      "id": "p2",
+      "weave": "Oxford",
+      "weave_plan": "1/1 (2)",
+      "repeat_size": "4 x 2",
+      "image": "../images/plain/oxford.png"
+    },
+    {
+      "id": "p3",
+      "weave": "Ottoman",
+      "weave_plan": "2/2",
+      "repeat_size": "2 x 4",
+      "image": "../images/plain/ottoman.png"
+    },
+    {
+      "id": "p4",
+      "weave": "Regular Matt",
+      "weave_plan": "3/3 (3)",
+      "repeat_size": "6 x 6",
+      "image": "../images/plain/regular_matt.png"
+    },
+    {
+      "id": "p5",
+      "weave": "Irregular Matt",
+      "weave_plan": "3/2 (3+2)",
+      "repeat_size": "5 x 5",
+      "image": "../images/plain/irregular_matt.png"
+    },
+    {
+      "id": "p6",
+      "weave": "Stitched Matt",
+      "weave_plan": "10/10 (10)",
+      "repeat_size": "20 x 20",
+      "image": "../images/plain/stitched_matt.png"
+    },
+    {
+      "id": "p7",
+      "weave": "Fancy Matt",
+      "weave_plan": "Motif",
+      "repeat_size": "16 x 16",
+      "image": "../images/plain/fancy_matt.png"
+    }
+  ],
+  "satin": [
+    {
+      "id": "s1",
+      "weave": "Regular Warp Satin",
+      "weave_plan": "8/1 (m -> 5)",
+      "repeat_size": "9 x 9",
+      "image": "../images/satin/regular_warp_satin.png"
+    },
+    {
+      "id": "s2",
+      "weave": "Irregular Warp Satin",
+      "weave_plan": "5/1",
+      "repeat_size": "6 x 6",
+      "image": "../images/satin/irregular_warp_satin.png"
+    },
+    {
+      "id": "s3",
+      "weave": "Regular Weft Sateen",
+      "weave_plan": "1/8 (m -> 5)",
+      "repeat_size": "9 x 9",
+      "image": "../images/satin/regular_weft_sateen.png"
+    },
+    {
+      "id": "s4",
+      "weave": "Irregular Weft Sateen",
+      "weave_plan": "1/5",
+      "repeat_size": "6 x 6",
+      "image": "../images/satin/irregular_weft_sateen.png"
+    }
+  ],
+  "twill": [
+    {
+      "id": "t1",
+      "weave": "Warp Way",
+      "weave_plan": "2/2",
+      "repeat_size": "4 x 4",
+      "image": "../images/twill/warp_twill.png"
+    },
+    {
+      "id": "t2",
+      "weave": "Weft Way",
+      "weave_plan": "3/1",
+      "repeat_size": "4 x 4",
+      "image": "../images/twill/weft_twill.png"
+    },
+    {
+      "id": "t3",
+      "weave": "Simple Warp",
+      "weave_plan": "3/1",
+      "repeat_size": "4 x 4",
+      "image": "../images/twill/simple_warp.png"
+    },
+    {
+      "id": "t4",
+      "weave": "Simple Weft",
+      "weave_plan": "1/3",
+      "repeat_size": "4 x 4",
+      "image": "../images/twill/simple_weft.png"
+    },
+    {
+      "id": "t5",
+      "weave": "Double Faced",
+      "weave_plan": "3/3",
+      "repeat_size": "6 x 6",
+      "image": "../images/twill/double_faced.png"
+    },
+    {
+      "id": "t6",
+      "weave": "Horizontal Zigzag",
+      "weave_plan": "4/4",
+      "repeat_size": "16 x 8",
+      "image": "../images/twill/horizontal_zigzag.png"
+    },
+    {
+      "id": "t7",
+      "weave": "Vertical Zigzag",
+      "weave_plan": "4/4",
+      "repeat_size": "8 x 16",
+      "image": "../images/twill/vertical_zigzag.png"
+    },
+    {
+      "id": "t8",
+      "weave": "Diamond",
+      "weave_plan": "4/4",
+      "repeat_size": "16 x 16",
+      "image": "../images/twill/diamond.png"
+    },
+    {
+      "id": "t9",
+      "weave": "Horizontal Herringbone",
+      "weave_plan": "4/4",
+      "repeat_size": "16 x 8",
+      "image": "../images/twill/horizontal_herringbone.png"
+    },
+    {
+      "id": "t10",
+      "weave": "Vertical Herringbone",
+      "weave_plan": "4/4",
+      "repeat_size": "8 x 16",
+      "image": "../images/twill/vertical_herringbone.png"
+    },
+    {
+      "id": "t11",
+      "weave": "Diaper",
+      "weave_plan": "4/4",
+      "repeat_size": "16 x 16",
+      "image": "../images/twill/diaper.png"
+    },
+    {
+      "id": "t12",
+      "weave": "Broken Twill",
+      "weave_plan": "3/3",
+      "repeat_size": "6 x 6",
+      "image": "../images/twill/broken_twill.png"
+    },
+    {
+      "id": "t13",
+      "weave": "Mocksatin",
+      "weave_plan": "4/4",
+      "repeat_size": "8 x 8",
+      "image": "../images/twill/mocksatin.png"
+    }
+  ],
+  "fancy": [
+    {
+      "id": "f1",
+      "weave": "Huckaback",
+      "weave_plan": "-",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/huckaback.png"
+    },
+    {
+      "id": "f2",
+      "weave": "Mockleno",
+      "weave_plan": "Motif",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/mockleno.png"
+    },
+    {
+      "id": "f3",
+      "weave": "Ordinary Honeycomb",
+      "weave_plan": "-",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/ordinary_honeycomb.png"
+    },
+    {
+      "id": "f4",
+      "weave": "Brighton Honeycomb",
+      "weave_plan": "-",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/brighton_honeycomb.png"
+    },
+    {
+      "id": "f5",
+      "weave": "Warp Distorted",
+      "weave_plan": "-",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/warp_distorted.png"
+    },
+    {
+      "id": "f6",
+      "weave": "Weft Distorted",
+      "weave_plan": "-",
+      "repeat_size": "16 x 16",
+      "image": "../images/fancy/weft_distorted.png"
+    },
+    {
+      "id": "f7",
+      "weave": "Bedford Cord",
+      "weave_plan": "-",
+      "repeat_size": "22 x 4",
+      "image": "../images/fancy/cord.png"
+    },
+    {
+      "id": "f8",
+      "weave": "Ordinary Pique",
+      "weave_plan": "-",
+      "repeat_size": "6 x 18",
+      "image": "../images/fancy/ordinary_pique.png"
+    },
+    {
+      "id": "f9",
+      "weave": "Wadded Welt Pique",
+      "weave_plan": "-",
+      "repeat_size": "6 x 18",
+      "image": "../images/fancy/wadded_weld.png"
+    }
+  ],
+  "effect": [
+    {
+      "id": "e1",
+      "weave": "End & End Pattern",
+      "weave_plan": "1/1 Plain",
+      "ooc": "1:1",
+      "repeat_size": "2 x 2",
+      "image": "../images/effect/end_and_end.png"
+    },
+    {
+      "id": "e2",
+      "weave": "Continuous Line Effect",
+      "weave_plan": "2/2 Twill",
+      "ooc": "2:2",
+      "repeat_size": "4 x 4",
+      "image": "../images/effect/continuous_line_effect.png"
+    },
+    {
+      "id": "e3",
+      "weave": "Hair Line Effect",
+      "weave_plan": "2/2 (2) Matt",
+      "ooc": "2:2",
+      "repeat_size": "4 x 4",
+      "image": "../images/effect/hair_line.png"
+    },
+    {
+      "id": "e4",
+      "weave": "Crowsfoot Pattern I",
+      "weave_plan": "1/1 Plain",
+      "ooc": "2:2",
+      "repeat_size": "4 x 4",
+      "image": "../images/effect/crows_foot_i.png"
+    },
+    {
+      "id": "e5",
+      "weave": "Crowsfoot Pattern II",
+      "weave_plan": "2/2 (2) Matt",
+      "ooc": "4:4",
+      "repeat_size": "8 x 8",
+      "image": "../images/effect/crows_foot_ii.png"
+    },
+    {
+      "id": "e6",
+      "weave": "Dogstooth Pattern",
+      "weave_plan": "2/2 Twill",
+      "ooc": "4:4",
+      "repeat_size": "8 x 8",
+      "image": "../images/effect/dogs_tooth.png"
+    },
+    {
+      "id": "e7",
+      "weave": "Shepherd's Check Pattern",
+      "weave_plan": "2/2 Twill",
+      "ooc": "6:6",
+      "repeat_size": "12 x 12",
+      "image": "../images/effect/shepherds_check.png"
+    },
+    {
+      "id": "e8",
+      "weave": "All Over Effect",
+      "weave_plan": "4/4 Twill",
+      "ooc": "6:6",
+      "repeat_size": "24 x 24",
+      "image": "../images/effect/all_over_effect.png"
+    },
+    {
+      "id": "e9",
+      "weave": "Bird's Eye Effect",
+      "weave_plan": "Motif",
+      "ooc": "2:2",
+      "repeat_size": "8 x 8",
+      "image": "../images/effect/birdseye.png"
+    },
+    {
+      "id": "e10",
+      "weave": "Stepped Twill Pattern I",
+      "weave_plan": "3/3 Twill",
+      "ooc": "2:1",
+      "repeat_size": "6 x 6",
+      "image": "../images/effect/stepped_twill_i.png"
+    },
+    {
+      "id": "e11",
+      "weave": "Stepped Twill Pattern II",
+      "weave_plan": "2/2 Twill",
+      "ooc": "1:1",
+      "repeat_size": "4 x 4",
+      "image": "../images/effect/stepped_twill_ii.png"
+    }
+  ]
+}
