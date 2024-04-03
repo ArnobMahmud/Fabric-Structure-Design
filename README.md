@@ -12,7 +12,6 @@ Woven fabrics are composed of longitudinal or warp thread and transverse or weft
 | [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Structure-Design/blob/master/LICENSE) | [![made-with-node](https://img.shields.io/badge/Made%20with-NodeJs-1f425f.svg?style=plastic&logo=Node.Js&color=e1d1eb&logoColor=faed3e&labelColor=339933)](https://nodejs.org/en/) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-
 ### `Visit Website`
 
 **_[`Fabric Structure & Design`](https://fabricstructuredesign.netlify.app/)_**
