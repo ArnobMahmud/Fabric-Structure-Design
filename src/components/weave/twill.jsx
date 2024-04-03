@@ -15,7 +15,7 @@ const TwillWeave = () => {
                 return (
                   <>
                     <li className="card">
-                      <Link to={`/info/${e.id}`} state={{ data: e }}>
+                      <Link to={`/${e.id}`} state={{ data: e }}>
                         <img src={`${e.image}`} alt="imgData" key={i} />
                         <h5>{e.weave}</h5>
                       </Link>

@@ -10,8 +10,8 @@ const RouteHandle = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/info/:weaveId" element={<DetailsPage />}></Route>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/:weaveId" element={<DetailsPage />} />
         <Route exact path="/*" element={<ErrorPage />} />
       </Routes>
       <Footer />

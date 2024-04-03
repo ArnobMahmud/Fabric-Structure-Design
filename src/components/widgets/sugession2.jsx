@@ -7,7 +7,7 @@ const Sugession2 = () => {
       <div className="container">
         {data.twill.map((e, i) => {
           return (
-            <Link to={`/info/${e.id}`} state={{ data: e }}>
+            <Link to={`/${e.id}`} state={{ data: e }}>
               <img src={`${e.image}`} alt="imgData" key={i} />
               <h5>{e.weave}</h5> 
               <hr></hr>

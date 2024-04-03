@@ -91,10 +91,40 @@ export const WeavePalette = styled.div`
 export const HeaderPalette = styled.div`
   text-align: center;
   img {
-    top: 0px;
     margin: 5px;
-    height: 120px;
+    height: 100px;
+    animation: move 20s ease-in-out infinite;
     //box-shadow: 0px 2px 6px 0px #7b6f6f, -2px 2px 4px 0px #7b6f6f;
+  }
+
+  @keyframes move {
+    0% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(15deg);
+    }
+    28% {
+      transform: rotate(0deg);
+    }
+    42% {
+      transform: rotate(-15deg);
+    }
+    57% {
+      transform: rotate(0deg);
+    }
+    71% {
+      transform: rotate(15deg);
+    }
+    83% {
+      transform: rotate(0deg);
+    }
+    91% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
   }
 `;
 
