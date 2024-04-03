@@ -45,13 +45,14 @@ export const WeavePalette = styled.div`
   }
   .cards::-webkit-scrollbar-thumb,
   .cards::-webkit-scrollbar-track {
-    border-radius: 92px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
   }
   .cards::-webkit-scrollbar-thumb {
-    background: var(--darkred);
+    background-color: #644a51 !important;
   }
   .cards::-webkit-scrollbar-track {
-    background: var(--thumb);
+    background-color: #7c7575 !important;
   }
 
   .details {
