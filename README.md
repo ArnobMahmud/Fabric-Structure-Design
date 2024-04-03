@@ -2,13 +2,16 @@
 
 Woven fabrics are composed of longitudinal or warp thread and transverse or weft threads interlaced with one another according to the class of structure and form of design that are desired. Structure is defined as the order of interlacement of Warp and Weft. Design is defined as a plan which gives the appearance of the structure.
 
+[![wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98.svg?style=plastic)](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98)
 
-<img src= "https://github.com/ArnobMahmud/Fabric-Structure-Design/assets/60808266/9b142f35-cd93-45b0-9dc6-e6cea6f04dfb">
+<img src= "https://github.com/ArnobMahmud/Fabric-Structure-Design/assets/60808266/d76adf43-2ab1-4301-a8e9-fc5abecf86bb">
 
+| [![Netlify Status](https://api.netlify.com/api/v1/badges/20146e53-abfe-43e0-ae63-f4b7fa50036e/deploy-status)](https://app.netlify.com/sites/fabricstructuredesign/deploys) | ![npm](https://img.shields.io/npm/v/npm?style=plastic&logo=npm) | [![developed-by-arnob](https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab)](https://github.com/ArnobMahmud/) |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-[![wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98.svg?style="plastic")](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/018d9409-ad26-4e5e-b100-1d40aeb6de98)
+| [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Structure-Design/blob/master/LICENSE) | [![made-with-node](https://img.shields.io/badge/Made%20with-NodeJs-1f425f.svg?style=plastic&logo=Node.Js&color=e1d1eb&logoColor=faed3e&labelColor=339933)](https://nodejs.org/en/) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-<img src= "https://github.com/ArnobMahmud/Fabric-Structure-Design/assets/60808266/310eafb7-1951-4ae8-b01e-0861c1ca385b">
 
 ### `Visit Website`
 
