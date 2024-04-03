@@ -58,6 +58,11 @@ a {
   text-decoration: none;
 }
 
+hr {
+  color: #291a44 !important;
+  padding: 1px;
+  border-radius: 15px;
+}
 p {
   color: rgb(33, 11, 11);
 }

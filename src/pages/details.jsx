@@ -13,7 +13,7 @@ const DetailsPage = () => {
   const data = location.state?.data;
   return (
     <WeavePalette>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row align-items-start justify-content-center">
           <div className="col-xl-8 align-items-center">
             <div className="card">
@@ -32,7 +32,7 @@ const DetailsPage = () => {
           </div>
           <div className="col-xl-4">
             <div className="details card">
-              <h5>Find out more</h5>
+              <h5> Find out more</h5>
               <br></br>
               {(weaveId.startsWith("p", 0) && <Sugession1 />) ||
                 (weaveId.startsWith("t", 0) && <Sugession2 />) ||

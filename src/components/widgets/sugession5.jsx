@@ -9,7 +9,9 @@ const Sugession5 = () => {
           return (
             <Link to={`/info/${e.id}`} state={{ data: e }}>
               <img src={`${e.image}`} alt="imgData" key={i} />
-              <h5>{e.weave}</h5> <br></br>
+              <h5>{e.weave}</h5>
+              <hr></hr>
+              <br></br>
             </Link>
           );
         })}

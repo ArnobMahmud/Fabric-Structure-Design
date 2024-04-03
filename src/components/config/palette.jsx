@@ -37,17 +37,6 @@ export const WeavePalette = styled.div`
     max-width: 100%;
   }
 
-  .details {
-    position: fixed;
-    width: 30%;
-    height: -webkit-fill-available;
-    overflow-y: scroll;
-  }
-
-  .details .container {
-    padding: 0px;
-  }
-
   .card .card-link-wrapper {
     margin-top: auto;
   }
@@ -63,6 +52,17 @@ export const WeavePalette = styled.div`
   }
   .cards::-webkit-scrollbar-track {
     background: var(--thumb);
+  }
+
+  .details {
+    position: fixed;
+    width: 30%;
+    height: -webkit-fill-available;
+    overflow-y: scroll;
+  }
+
+  .details .container {
+    padding: 0px;
   }
 
   @media (max-width: 991px) {
@@ -81,6 +81,7 @@ export const WeavePalette = styled.div`
     .details {
       position: relative;
       width: auto;
+      height: -webkit-fill-available;
       overflow-y: auto;
     }
   }
