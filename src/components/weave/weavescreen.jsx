@@ -9,7 +9,7 @@ const WeaveScreen = () => {
         <div className="row justify-content-center align-items-center">
           {data.map((e) => (
             <>
-              <div className="col-xl-6 col-md-6 col-sm-12">
+              <div className="col-xl-6 col-md-12 col-sm-12">
                 <div className="card">
                   <h1>{e.weave}</h1>
                   <div className="card">

@@ -67,12 +67,16 @@ export const WeavePalette = styled.div`
   }
 
   @media (max-width: 991px) {
-    .cards {
-      display: contents;
+    h1 {
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 14px;
     }
     .card {
       margin: 5px;
-      padding: 15px;
+      padding: 10px;
+      border-radius: 5px !important;
     }
     img {
       max-width: 100%;
@@ -84,6 +88,10 @@ export const WeavePalette = styled.div`
       width: auto;
       height: -webkit-fill-available;
       overflow-y: auto;
+    }
+
+    .cards::-webkit-scrollbar {
+      height: 10px !important;
     }
   }
 `;

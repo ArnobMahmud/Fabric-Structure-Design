@@ -1,4 +1,4 @@
-import RouteHandle from "./components/router/routes";
+import RouteHandle from "./router/routes";
 
 const App = () => {
   return <RouteHandle />;

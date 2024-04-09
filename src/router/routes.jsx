@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "../includes/header";
-import Footer from "../includes/footer";
-import ErrorPage from "../../pages/404";
-import WeaveScreen from "../weave/weavescreen";
-import WeaveData from "../weave/weavedata";
+import Header from "../components/includes/header";
+import Footer from "../components/includes/footer";
+import ErrorPage from "../pages/404";
+import WeaveScreen from "../components/weave/weavescreen";
+import WeaveData from "../components/weave/weavedata";
 
 const RouteHandle = () => {
   return (
