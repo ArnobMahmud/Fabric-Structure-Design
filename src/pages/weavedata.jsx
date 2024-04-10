@@ -1,7 +1,7 @@
 import { useParams, useLocation } from "react-router-dom";
-import { WeavePalette } from "../config/palette";
-import { Link } from "react-router-dom";
-import moreInfo from "../../json/weave_data.json";
+import { WeavePalette } from "../components/config/palette";
+import moreInfo from "../json/weave_data.json";
+import WeaveDetailsInfoCard from "../components/widget/detailscard";
 
 const WeaveData = () => {
   const params = useParams();
@@ -30,20 +30,7 @@ const WeaveData = () => {
             </div>
           </div>
           <div className="col-xl-4">
-            <div className="details card">
-              <h5>Find out more</h5>
-              <br></br>
-              {moreInfo.map((x) => {
-                return x["weave-details"].map((y) => (
-                  <Link to={`/${y.id}`} state={{ data: y }}>
-                    <img src={`${y.image}`} alt="imgData" key={y} />
-                    <p>{y.weave} | ({x.weave})</p>
-                    <hr></hr>
-                    <br></br>
-                  </Link>
-                ));
-              })}
-            </div>
+            <WeaveDetailsInfoCard moreInfo={moreInfo} />
           </div>
         </div>
       </div>
